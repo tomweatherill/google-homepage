@@ -41,20 +41,33 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.top-nav {
-	height: 50px;
+.header {
+	height: 100px;
 }
-.top-nav ul {
-	list-style: none;
+.nav {
+	list-style-type: none;
 	background-color: #fff;
 	float: right;
+	display: block;
 }
-.top-nav ul li{
+.nav li{
 	display:inline;
 	float: left;
+	padding: 5px 5px 5px 5px;
+	font-family: arial. sans-serif;
+}
+.apps {
+	background: url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/style/../images/sprite.png);
+	background-position: -72px -857px;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	padding: 5px 5px 5px 5px;
+}
 }
 .logo {
 	margin: 0 0 20px 0;
+	clear: both;
 }
 .logo img {
 	display: block;
